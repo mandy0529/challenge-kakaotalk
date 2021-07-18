@@ -1,0 +1,137 @@
+/* nav bar */
+#navbar {
+    background-color: #f7f8fa;
+  }
+  #create-post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding: 0 15px;
+    border-bottom: 1px solid lightgray;
+  }
+  /* post */
+  #post i {
+    font-size: 30px;
+  }
+  .post__btn {
+    color: lightgray;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  /* profile */
+  #post__profile {
+    padding-top: 130px;
+    padding-left: 20px;
+    display: flex;
+  }
+  .post__profile-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  .post__profile-name {
+    padding-left: 10px;
+  }
+  .profile__postname {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .post__onlyme,
+  .post__album {
+    padding: 3px 7px;
+    border: 1px solid black;
+    border-radius: 8px;
+    opacity: 0.8;
+    margin: 10px 3px;
+    text-align: center;
+  }
+  .post__profile-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  /* write */
+  #write {
+    padding: 30px 20px;
+    height: 1000vh;
+  }
+  #write input {
+    text-align: left;
+    margin-left: 10px;
+  }
+  /* menu  */
+  #menu {
+    padding: 30px 0;
+    border-top: 1px solid lightgray;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 0px 0px 10px gray;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    bottom: -50px;
+    opacity: 0;
+    cursor: pointer;
+  }
+  #menu:hover {
+    opacity: 1;
+    transition: all 600ms ease-in;
+    bottom: 0;
+  }
+  .menu__post-btn {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 20px;
+  }
+  .menu__post-btn i {
+    margin-right: 10px;
+  }
+  .menu__post-btn.one i {
+    color: red;
+  }
+  .menu__post-btn.two i {
+    color: orange;
+  }
+  
+  .menu__post-btn.three i {
+    color: yellow;
+  }
+  .menu__post-btn.four i {
+    color: green;
+  }
+  .menu__post-btn.five i {
+    color: blue;
+  }
+  .menu__post-btn.six i {
+    color: purple;
+  }
+  .menu__post-topbar {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 5px;
+    background-color: lightgray;
+    position: absolute;
+    left: 47%;
+    margin-top: -10px;
+    border-radius: 20px;
+  }
+  .menu__post-bottombar {
+    left: 42%;
+    display: flex;
+    justify-content: center;
+    width: 130px;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    border-radius: 20px;
+    bottom: 4%;
+  }
+  
