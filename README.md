@@ -1,4 +1,6 @@
 permalink: /index.html
-#kakao talk 
+
+
+    #kakao talk 
 
     nomad challenge kakao talk practice
